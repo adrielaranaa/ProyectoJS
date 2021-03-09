@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AADIGITAL</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header> <!--ENCABEZADO-->
+        <img class="Logoprinc" src="../img/logo.png" alt="LOGO">
+    </header>
+    <nav> <!-- CONTIENE EL MENU PRINCIPAL DE NAVEGACION (SE UBICA EN TODAS LAS PAGINAS POR ELLO COLOQUE LAS DIRECCIONES DIRECTAMENTE) --> 
+            <button id="ButtomCarrito">
+                <img class="ImgCarrito" src="../img/carrito.png" alt="Tu Carrito">
+                <span id="contador"><span>
+            </button>
+    </nav>
+    <section> <!--INFORMACION DE LA PAGINA-->
+         <div id="CarritoTotal">
+             <table id="Tabla">
+                    <tr id="Articulo0">
+                        <td>FIFA 21 PS4 <img src="../img/Producto-FIFA21PS4.png" style="display:block; width:70px; height:70px" alt="Imagen FIFA 21"></td>
+                        <td>Unidades: <input type="number" class="Unid_Carrito" value="0" min="0" max="12"></td>
+                        <td class="PrecioTotUnid">$$</td>
+                    </tr>
+                    <tr id="Articulo1">
+                        <td>DBZ PS4 <img src="../img/Producto-DBZ.jpg" style="display:block; width:70px; height:70px" alt="Imagen FIFA 21"></td>
+                        <td>Unidades: <input type="number" class="Unid_Carrito" value="0" min="0" max="12"></td>
+                        <td class="PrecioTotUnid">$$</td>
+                    </tr>
+                    <tr id="Articulo2">
+                        <td>GTA V PS4 <img src="../img/Producto-GTAVPS4.jpg" style="display:block; width:70px; height:70px" alt="Imagen FIFA 21"></td>
+                        <td>Unidades: <input type="number" class="Unid_Carrito" value="0" min="0" max="12"></td>
+                        <td class="PrecioTotUnid">$$</td>
+                    </tr>
+                    <tr id="Articulo3">
+                        <td>MTGS PS4 <img src="../img/Producto-MGSVPS4.jpg" style="display:block; width:70px; height:70px" alt="Imagen FIFA 21"></td>
+                        <td>Unidades: <input type="number" class="Unid_Carrito" value="0" min="0" max="12"></td>
+                        <td class="PrecioTotUnid">$$</td>
+                    </tr>
+                    <tr id="Articulo4">
+                        <td>MTGS PS4 <img src="../img/Producto-GTSPORTPS4.jpeg" style="display:block; width:70px; height:70px" alt="Imagen FIFA 21"></td>
+                        <td>Unidades: <input type="number" class="Unid_Carrito" value="0" min="0" max="12"></td>
+                        <td class="PrecioTotUnid">$$</td>
+                    </tr>
+                    <tr id="Articulo5">
+                        <td>JUST DANCE PS4 <img src="../img/Producto-JUSTDANCEPS4.jpg" style="display:block; width:70px; height:70px" alt="Imagen FIFA 21"></td>
+                        <td>Unidades: <input type="number" class="Unid_Carrito" value="0" min="0" max="12"></td>
+                        <td class="PrecioTotUnid">$$</td>
+                    </tr>
+                    <p id="PrecioTotal">Precio Total</p>
+                    <button type="button" id="Comprar">Comprar</button>
+             </table>
+        </div> 
+         <h2>CATALOGO PS4</h2>
+        <div class="Contenedor_Catalogo">
+            <div class="Producto_PS4">
+                <h3 class="NombreProducto">FIFA 21 PS4</h3>
+                <h6>$<span  class="Precio">5399</span></h6>
+                Cantidad <input type="number" class="CantUnid" value="0" min="0" max="12">
+            </div>
+            <div class="Producto_PS4">
+                <img src="../img/Producto-DBZ.jpg"  class="Producto" alt="JUEGO B">
+                <h3 class="NombreProducto">DBZ PS4</h3>
+                <h6>$<span  class="Precio">3599</span></h6>
+                Cantidad <input type="number" class="CantUnid"  value="0" min="0" max="12">
+            </div>
+            <div class="Producto_PS4">
+                <img src="../img/Producto-GTAVPS4.jpg" class="Producto" alt="JUEGO C">
+                <h3 class="NombreProducto">GTA V PS4</h3>
+                <h6>$<span  class="Precio">1499</span></h6>
+                Cantidad <input type="number" class="CantUnid" value="0" min="0" max="12">
+            </div>
+            <div class="Producto_PS4">
+                <img src="../img/Producto-MGSVPS4.jpg" class="Producto" alt="JUEGO D">
+                <h3 class="NombreProducto">MTGS V PS4</h3>
+                <h6>$<span  class="Precio">1799</span></h6>
+                Cantidad <input type="number" class="CantUnid" value="0" min="0" max="12">
+            </div>
+            <div class="Producto_PS4">
+                <img src="../img/Producto-GTSPORTPS4.jpeg" class="Producto" alt="JUEGO D">
+                <h3 class="NombreProducto">GTS PS4</h3>
+                <h6>$<span class="Precio">1499</span></h6>
+                Cantidad <input type="number" class="CantUnid" value="0" min="0" max="12">
+            </div>
+            <div class="Producto_PS4">
+                <img src="../img/Producto-JUSTDANCEPS4.jpg" class="Producto" alt="JUEGO D">
+                <h3 class="NombreProducto">JUST D PS4</h3>
+                <h6>$<span class="Precio">1499</span></h6>
+                Cantidad <input type="number" class="CantUnid" value="0" min="0" max="12">
+            </div>   
+        </div>
+        <div id="Contenedor-LoginSesion">  
+            <form id="LoginSesion">
+                <label for="name">Nombre de Usuario:</label>
+                <input id="Nombre" type="name" value="">
+                <label for="password">Contraseña</label>
+                <input id="Contraseña" type="password">
+                <a href="#">Olvido su contraseña?</a>
+                <span><label class="check" for="checkbox">Guardar sesion</label>
+                <input id="InputSesion" type="checkbox"></span>
+                <input class="InicioSesion" type="submit" value="Login">
+            </form>
+            </div> 
+        </div>
+    </section>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+         crossorigin="anonymous">
+    </script>
+    <script src = "../javascript.js"></script>
+</body>
+</html>
